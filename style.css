@@ -11,8 +11,8 @@ header>nav{
     background: #AAC8A7;
     padding: 15px 8px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-items > a{
@@ -114,3 +114,49 @@ footer{
     margin: 0;
     padding: 7px 0;
 }
+
+
+
+/* developers section style */
+.developer-profile{
+    text-align: center;
+    box-shadow: 1px 2px 10px #cacaca;
+    width: 22%;
+    padding: 15px;
+    transition: .5s;
+
+}
+
+.developer-profile:hover{
+    box-shadow: 1px 2px 10px #7c7c7c;
+}
+
+.developer-profile>img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.developer-profile>h4{
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.developer-profile> .name{
+    color: tomato;
+    font-weight: bold;
+}
+
+.developer-profile > .depertment{
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.developer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
